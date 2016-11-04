@@ -9,6 +9,7 @@ public class Personne {
 	public Personne(String n,String P){
 		this.nomAmi=n;
 		this.prenomAmi=P;
+		//il faut initialiser les variables de la classe dans le constructeur Nationalité, .... 
 	}
 	
 	public Personne(String Nation){
@@ -50,7 +51,7 @@ public class Personne {
 	
 	
 	public String toSting(){
-		return this.nomAmi+this.prenomAmi+"   \n"+this.Naissance.toSting()+" De "+this.Nation+"\n est votre amis sur facebook"; 
+		return this.nomAmi+this.prenomAmi+"   \n"+this.Naissance+" De "+this.Nation+"\n est votre amis sur facebook"; 
 	}
 	
 	
